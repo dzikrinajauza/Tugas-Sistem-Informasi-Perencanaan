@@ -33,18 +33,11 @@ Kumpulan analisis data kependudukan dan ekonomi regional menggunakan R, dikerjak
 ### Cara Menjalankan
 ```r
 # Jalankan di RStudio
-source("population_projection.R")
+source("proyeksiPenduduk.R")
 ```
-Pastikan dataset kependudukan (`data_penduduk_bekasi.csv`) berada di working directory yang sama.
-
-### File
-- `population_projection.R` — kode proyeksi & perhitungan kebutuhan faskes
-- `population_pyramid.R` — kode pembuatan piramida penduduk
-- `data_penduduk_bekasi.csv` — dataset kependudukan (sumber: BPS)
-- `laporan.pdf` — laporan lengkap dengan interpretasi
 
 ### Skill yang Ditunjukkan
-`R` · `Data Wrangling` · `Statistical Forecasting` · `Data Visualization` · `Public Data Analysis`
+`excel`, `R` · `Data Wrangling` · `Statistical Forecasting` · `Data Visualization` · `Public Data Analysis`
 
 ---
 
@@ -75,13 +68,8 @@ Pastikan dataset kependudukan (`data_penduduk_bekasi.csv`) berada di working dir
 
 ### Cara Menjalankan
 ```r
-source("location_quotient_analysis.R")
+source("tugas3.R")
 ```
-
-### File
-- `location_quotient_analysis.R` — kode perhitungan LQ & klasifikasi
-- `pdrb_data.csv` — dataset PDRB per sektor
-- `laporan.pdf` — laporan lengkap dengan pembahasan kebijakan
 
 ### Skill yang Ditunjukkan
 `R` · `Economic/Regional Analysis` · `Quantitative Methods` · `Data-Driven Policy Recommendation`
@@ -99,11 +87,6 @@ source("location_quotient_analysis.R")
 
 > Proyek ini bersifat pelengkap — menunjukkan kemampuan bekerja dengan data spasial/GIS di luar analisis tabular standar.
 
-### File
-- `slope_aspect_map.qgz` — project file QGIS
-- `dem_bekasi.tif` — data DEM (raster)
-- `laporan.pdf` — laporan lengkap dengan peta & interpretasi
-
 ### Skill yang Ditunjukkan
 `QGIS` · `Geospatial Analysis` · `Remote Sensing Data (DEM/SRTM)`
 
@@ -118,3 +101,9 @@ source("location_quotient_analysis.R")
 - Badan Pusat Statistik (BPS) Kota Bekasi
 - DEMNAS / USGS SRTM (data elevasi)
 
+## 👤 Author
+[Dzikrina Jauza Hasna] Front-End | [dzikrinajauza@gmail.com] · 🔗 https://www.linkedin.com/in/dzikrinajauza/ ·
+
+
+## 📄 Lisensi
+Proyek ini dirilis di bawah lisensi MIT - Untuk keperluan pembelajaran/tugas dan dapat digunakan secara bebas dengan mencantumkan kredit kepada pembuat asli.
